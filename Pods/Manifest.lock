@@ -1,0 +1,33 @@
+PODS:
+  - TensorFlowLiteC (0.0.1-nightly.20210419):
+    - TensorFlowLiteC/Core (= 0.0.1-nightly.20210419)
+  - TensorFlowLiteC/Core (0.0.1-nightly.20210419)
+  - TensorFlowLiteC/CoreML (0.0.1-nightly.20210419):
+    - TensorFlowLiteC/Core
+  - TensorFlowLiteC/Metal (0.0.1-nightly.20210419):
+    - TensorFlowLiteC/Core
+  - TensorFlowLiteSwift/Core (0.0.1-nightly.20210419):
+    - TensorFlowLiteC (= 0.0.1-nightly.20210419)
+  - TensorFlowLiteSwift/CoreML (0.0.1-nightly.20210419):
+    - TensorFlowLiteC/CoreML (= 0.0.1-nightly.20210419)
+    - TensorFlowLiteSwift/Core (= 0.0.1-nightly.20210419)
+  - TensorFlowLiteSwift/Metal (0.0.1-nightly.20210419):
+    - TensorFlowLiteC/Metal (= 0.0.1-nightly.20210419)
+    - TensorFlowLiteSwift/Core (= 0.0.1-nightly.20210419)
+
+DEPENDENCIES:
+  - TensorFlowLiteSwift/CoreML (~> 0.0.1-nightly)
+  - TensorFlowLiteSwift/Metal (~> 0.0.1-nightly)
+
+SPEC REPOS:
+  trunk:
+    - TensorFlowLiteC
+    - TensorFlowLiteSwift
+
+SPEC CHECKSUMS:
+  TensorFlowLiteC: 63c89d0f3ad4919bca28a6c833444db6321be826
+  TensorFlowLiteSwift: 5d67dce0b89f5ec21386249ad8652aaf59954b78
+
+PODFILE CHECKSUM: 04dd847852c1fb142be569fb22c9843b5bdcfab0
+
+COCOAPODS: 1.10.1
